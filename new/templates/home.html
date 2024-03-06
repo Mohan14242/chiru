@@ -1,0 +1,11 @@
+<div>
+    {% for rooms in room %}
+    <div>
+       <span>@{{rooms.host.username}}</span>
+       <span>{{rooms.topic.name}}</span>
+       <hr>
+    </div>
+    {% endfor %}
+   
+
+</div>
